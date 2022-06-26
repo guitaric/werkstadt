@@ -549,7 +549,6 @@ _jqueryDefault.default(document).ready(function() {
     });
     // do animation
     function fade_bkg() {
-        console.log("Lklkl");
         to_be_scrolled = document_height - window_height;
         scrolled = _jqueryDefault.default(document).scrollTop() + 39;
         start_after = to_be_scrolled * 0.2;
